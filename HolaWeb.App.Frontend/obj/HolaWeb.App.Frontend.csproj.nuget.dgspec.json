@@ -1,24 +1,24 @@
 {
   "format": 1,
   "restore": {
-    "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj": {}
+    "C:\\proyec\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj": {}
   },
   "projects": {
-    "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj": {
+    "C:\\proyec\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
+        "projectUniqueName": "C:\\proyec\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
         "projectName": "HolaWeb.App.Frontend",
-        "projectPath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
-        "packagesPath": "C:\\Users\\Entelgy\\.nuget\\packages\\",
-        "outputPath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\obj\\",
+        "projectPath": "C:\\proyec\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
+        "packagesPath": "C:\\Users\\EdwinAndres\\.nuget\\packages\\",
+        "outputPath": "C:\\proyec\\HolaWeb.App\\HolaWeb.App.Frontend\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
           "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet\\"
         ],
         "configFilePaths": [
-          "C:\\Users\\Entelgy\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\EdwinAndres\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
