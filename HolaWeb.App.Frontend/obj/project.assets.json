@@ -1,11 +1,49 @@
 {
   "version": 3,
   "targets": {
-    "net5.0": {}
+    "net5.0": {
+      "HolaWeb.App.Dominio/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "compile": {
+          "bin/placeholder/HolaWeb.App.Dominio.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HolaWeb.App.Dominio.dll": {}
+        }
+      },
+      "HolaWeb.App.Persistencia/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "HolaWeb.App.Dominio": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/HolaWeb.App.Persistencia.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/HolaWeb.App.Persistencia.dll": {}
+        }
+      }
+    }
   },
-  "libraries": {},
+  "libraries": {
+    "HolaWeb.App.Dominio/1.0.0": {
+      "type": "project",
+      "path": "../HolaWeb.App.Dominio/HolaWeb.App.Dominio.csproj",
+      "msbuildProject": "../HolaWeb.App.Dominio/HolaWeb.App.Dominio.csproj"
+    },
+    "HolaWeb.App.Persistencia/1.0.0": {
+      "type": "project",
+      "path": "../HolaWeb.App.Persistencia/HolaWeb.App.Persistencia.csproj",
+      "msbuildProject": "../HolaWeb.App.Persistencia/HolaWeb.App.Persistencia.csproj"
+    }
+  },
   "projectFileDependencyGroups": {
-    "net5.0": []
+    "net5.0": [
+      "HolaWeb.App.Dominio >= 1.0.0",
+      "HolaWeb.App.Persistencia >= 1.0.0"
+    ]
   },
   "packageFolders": {
     "C:\\Users\\Entelgy\\.nuget\\packages\\": {},
@@ -41,7 +79,14 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj": {
+              "projectPath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Dominio\\HolaWeb.App.Dominio.csproj"
+            },
+            "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Persistencia\\HolaWeb.App.Persistencia.csproj": {
+              "projectPath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Persistencia\\HolaWeb.App.Persistencia.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
