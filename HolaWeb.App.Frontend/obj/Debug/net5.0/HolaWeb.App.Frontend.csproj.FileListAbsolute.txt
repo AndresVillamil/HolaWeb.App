@@ -43,3 +43,4 @@ C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net5.0\HolaWeb.App.Dominio
 C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net5.0\HolaWeb.App.Persistencia.dll
 C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net5.0\HolaWeb.App.Persistencia.pdb
 C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\bin\Debug\net5.0\HolaWeb.App.Dominio.pdb
+C:\HolaWeb\HolaWeb.App\HolaWeb.App.Frontend\obj\Debug\net5.0\Razor\Pages\Saludos\Details.cshtml.g.cs

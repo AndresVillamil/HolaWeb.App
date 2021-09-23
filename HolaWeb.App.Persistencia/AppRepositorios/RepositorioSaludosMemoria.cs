@@ -1,4 +1,5 @@
-//using System.Security.AccessControl;
+using System.Collections;
+using System.Linq;
 using System.Collections.Generic;
 using HolaWeb.App.Dominio;
 
@@ -26,5 +27,26 @@ namespace HolaWeb.App.Persistencia.AppRepositorios
             //Implementar lista
             return saludos;
         }
+
+        public Saludo GetSaludoPorId(int saludoId)
+        {
+            return saludos.SingleOrDefault(s => s.Id==saludoId);
+        }
+/*
+         public IEnumerable<Saludo> GetSaludosPorFiltro(string filtro=null) // el parámetro es opcional 
+        {
+            var saludos = GetAll(); // Obtiene todos los saludos
+            if (saludos != null)  //Si se tienen saludos
+            {
+                if (!String.IsNullOrEmpty(filtro)) // Si el filtro tiene algun valor
+                {
+                    saludos = saludos.Where(s => s.EnEspanol.Contains(filtro)); 
+                    /// <summary>
+                    /// Filtra los mensajes que contienen el filtro
+                    /// </summary>
+                }
+            }
+            return saludos;
+        }*/
     }
 }
