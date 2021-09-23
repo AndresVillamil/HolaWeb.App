@@ -1,8 +1,12 @@
 {
   "version": 2,
+<<<<<<< HEAD
   "dgSpecHash": "bMO/nnFKnfE0YDY9kciLmdfXs85GdVkVa59HuIBcPnR7J8oLLf4EmLcjA4hFBIR2iss15JUPCk6NFIk7j8xcQg==",
+=======
+  "dgSpecHash": "RPivMYNF/uFo1ZpohQvU/w6lq4DrZGJCrdszZEkcg0ocmYLJB0cZDbURiYEYD1huNI6YrCAIlUR6+Grp+Sqi+w==",
+>>>>>>> edb25404d079a51e92f180897fedca0ab32df933
   "success": true,
-  "projectFilePath": "C:\\HolaWeb\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
+  "projectFilePath": "C:\\proyec\\HolaWeb.App\\HolaWeb.App.Frontend\\HolaWeb.App.Frontend.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }

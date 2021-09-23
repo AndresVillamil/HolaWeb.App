@@ -1,8 +1,8 @@
 {
   "runtimeOptions": {
     "additionalProbingPaths": [
-      "C:\\Users\\Entelgy\\.dotnet\\store\\|arch|\\|tfm|",
-      "C:\\Users\\Entelgy\\.nuget\\packages",
+      "C:\\Users\\EdwinAndres\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\EdwinAndres\\.nuget\\packages",
       "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
       "C:\\Program Files (x86)\\Microsoft\\Xamarin\\NuGet"
     ]
